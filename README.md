@@ -28,3 +28,11 @@ Demo Acct
 * Deven Castoria
 * Aaron Corbett
 * Jared Elliott
+
+## Dependancies / Packages
+* Sequelize
+* MySQL2
+* Express.js
+* dotenv
+* NodeMailer
+* Express Session
