@@ -15,6 +15,8 @@ git clone git@github.com:dcast217/Car-Rental.git
 
 ## Screenshot
 ![torq-rentals](https://github.com/CLTJared/torq-rental/assets/119962687/9233e3a8-8592-4658-9309-e8611e72ce71)
+![Reservation Confirmation Email](https://github.com/CLTJared/torq-rental/assets/119962687/9ed91e39-5d91-4098-95cd-71abbc2b6549)
+
 
 ## Demo Link
 [Heroku Deployment](https://jaredclt-torq-rentals-7a8407597286.herokuapp.com/)
