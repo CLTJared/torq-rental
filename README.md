@@ -31,6 +31,9 @@ Demo Acct
 * Aaron Corbett
 * Jared Elliott
 
+## Presentation Deck
+[Presentation to Group](https://docs.google.com/presentation/d/1_T1MLq6drf6EiQNMdfVhDJcA0zkkfxpOOo8NqPPPeDI/edit#slide=id.g2b6e147ba21_0_127)
+
 ## Dependancies / Packages
 * Sequelize
 * MySQL2
