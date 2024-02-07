@@ -1,0 +1,29 @@
+<div class="container">
+
+<h3>Create A Reservation</h3>
+<br />
+
+<form id="reservation-create" method="POST" action="/reservation">
+  <div class="form-group">
+    <label for="vehicle_id">Vehicle Choice: </label>
+    <select id="vehicle_id" name="vehicle_id">
+      {{#each vehicleData as |car|}}
+        <option value="{{id}}">{{brand}} {{model}}</option>
+      {{/each}}
+    </select>
+  </div>
+  <br />
+  <div class="form-group">
+    <label for="check_out">Pickup:</label>
+    <input type="date" id="check_out" name="check_out" class="form-control" min="2024-02-07">
+    <br />
+    <label for="check_in">Dropoff:</label>
+    <input type="date" id="check_in" name="check_in" class="form-control" min="2024-02-08">
+    <input type="text" id="location_id" name="location_id" class="d-none" value="{{user_location}}">
+    <input type="text" id="user_id" name="user_id" class="d-none" value="{{user_id}}">
+  </div>
+   
+  <button type="submit" class="btn btn-warning btn-xl mt-3">Reserve Your Car!</button>
+</form>
+
+</div>
